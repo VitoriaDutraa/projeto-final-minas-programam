@@ -12,19 +12,20 @@ body {
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: #ff00f0;
-    background-image: url('/img/eu.png');
+    background-color: #dd9bd9c2;
+    background-image: url('/Applications/Vitoria Dutra/img/eu.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right center ;
     background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 0 112px;
+    padding: 0 115px;
     position: relative;
 }
+
 
 h1 {
     font-size: 50px;
@@ -173,7 +174,7 @@ a:hover {
 
 #toggle:checked ~ .menu-items {
     visibility: visible;
-    opacity: 1;
+    opacity: 1 ;
 }
 
 .container  {
@@ -200,9 +201,9 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ff00f0;
-    background-image: url('./img/eu.png');
-    background-position: center;
+    background-color: #dd9bd9c2;
+    background-image: url(https://img.freepik.com/fotos-premium/conceito-de-desenvolvedor-de-software-de-design-web-uiux-desenvolvimento-de-linguagem-de-codificacao-no-projeto-de-aplicativo-de-programacao-de-fundo-rosa-ilustracao-de-renderizacao-3d_598821-880.jpg);
+    background-position:  center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
@@ -211,20 +212,21 @@ a:hover {
     transition: 0.5s ease-in-out;
 }
 
-.card-text {
+.container-text {
     width: 40%;
+   /* text-align: initial; */
     letter-spacing: 1px;
     color: rgb(109,109,109);
 }
 
-.card-wrapper {
+.car-wrapper {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-}
+} 
 
 .card-wrapper::before {
     content: '';
@@ -236,7 +238,7 @@ a:hover {
     border: 1px solid #ffffff;
     opacity: 0;
     transition: 0.5s ease-in-out;
-}
+} 
 
 .card-wrapper h2 {
     font-size: 40px;
@@ -244,17 +246,18 @@ a:hover {
     letter-spacing: 4px;
     margin: 0;
     transition: 0.5s ease-in-out;
-}
+} 
 
 .card-wrapper p {
     font-size: 0;
+    text-align: center;
     visibility: visible;
     opacity: 0;
     font-weight: bold;
     text-transform: uppercase;
-    transition: 0.5s ease-in-out;
-}
+    transition: 0.5s ease-in-out; 
 
+}
 .card:hover{
     filter: unset;
 }
@@ -274,7 +277,7 @@ a:hover {
 .footer {
     width: 100%;
     height: 100px;
-    background-color: #ff00f0;
+    background-color: #dd9bd9c2;
     display: flex;
     align-items: center;
     justify-content: center;
