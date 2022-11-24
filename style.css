@@ -57,7 +57,7 @@ h2 {
 
 a:hover {
     background-color: #ffffff;
-}
+} 
 
 
 .checkbox-container {
@@ -120,7 +120,7 @@ a:hover {
 }
 
 .menu-items {
-    position: fixed;
+    position: fixed ;
     top: 0;
     left: 0;
     width: 100%;
@@ -174,7 +174,7 @@ a:hover {
 
 #toggle:checked ~ .menu-items {
     visibility: visible;
-    opacity: 1 ;
+    opacity: 1;
 }
 
 .container  {
@@ -214,7 +214,7 @@ a:hover {
 
 .container-text {
     width: 40%;
-   /* text-align: initial; */
+    text-align: initial; 
     letter-spacing: 1px;
     color: rgb(109,109,109);
 }
@@ -235,7 +235,7 @@ a:hover {
     width: 100px;
     border-radius: 50%;
     display: block;
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffff;  
     opacity: 0;
     transition: 0.5s ease-in-out;
 } 
@@ -263,8 +263,8 @@ a:hover {
 }
 
 .card:hover > .card-wrapper::before {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     opacity: 1;
 }
 
